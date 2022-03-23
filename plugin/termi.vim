@@ -151,6 +151,8 @@ nnoremap <leader><cr>
 tnoremap <Esc> <C-W>N
 tnoremap <ESC><ESC> <C-C><C-d>
 
+nmap <silent><nowait> <C-p>      <ESC>:<C-U>Term<CR>
+nmap <silent><nowait> <C-p>      <C-w>:<C-U>Term<CR>
 nmap <silent> \t      :Term<CR>
 tmap <silent> \t <C-w>:Term<CR>
 
